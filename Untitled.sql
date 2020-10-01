@@ -1,2 +1,2 @@
-SELECT count(flightID) FROM flights
-GROUP BY flightID;
+SELECT COUNT(flightID) AS Total FROM flights
+;
